@@ -11,6 +11,9 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #fff;
+    padding-top: 9%; /* Valor para que el navbar no tape las siguientes secciones*/
+
+
 }
 
 /*Cabecera About us*/
