@@ -303,3 +303,42 @@ iframe {
 }
 
 /*FIN CSS ALEX HEADER*/
+
+
+/*INICIO CSS EMILIO SERVICIOS*/
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.service {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease,
+    color 0.3s ease;
+}
+.service:hover {
+    transform: translateY(-10px);
+    background-color: blue; /* Cambiar el fondo cuando se pasa el mouse */
+    color: white; /* Cambiar el color del texto a blanco */
+}
+.service h3 {
+    margin-bottom: 15px;
+}
+.service p {
+    font-size: 0.9em;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+/*FIN CSS EMILIO SERVICIOS*/

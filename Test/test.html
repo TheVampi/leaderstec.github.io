@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios de Reparación de Celulares</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      section {
+        padding: 20px;
+        margin: 10px;
+      }
+      .services {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .service {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        transition: transform 0.3s ease, background-color 0.3s ease,
+          color 0.3s ease;
+      }
+      .service:hover {
+        transform: translateY(-10px);
+        background-color: blue; /* Cambiar el fondo cuando se pasa el mouse */
+        color: white; /* Cambiar el color del texto a blanco */
+      }
+      .service h3 {
+        margin-bottom: 15px;
+      }
+      .service p {
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="reparacion">
+      <h2>Reparación de Celulares</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Reparación de Pantallas</h3>
+          <p>
+            Reemplazamos pantallas rotas o dañadas en la mayoría de modelos.
+            Utilizamos piezas de alta calidad para garantizar el rendimiento de
+            tu celular.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Reparación de Baterías</h3>
+          <p>
+            Cambiamos baterías defectuosas o agotadas por nuevas, asegurando una
+            duración de hasta el 100% de su capacidad original.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Reparación de Placa Base</h3>
+          <p>
+            Diagnóstico y reparación de fallos internos en la placa base, como
+            problemas de carga, cámaras o circuitos internos dañados.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Reparación de Cámara</h3>
+          <p>
+            Reparamos cámaras delanteras y traseras con piezas originales o de
+            alta calidad para que tu celular funcione perfectamente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="venta">
+      <h2>Venta de Refacciones</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Venta de Pantallas</h3>
+          <p>
+            Ofrecemos pantallas originales y de alta calidad para los modelos
+            más populares de celulares. Garantía de durabilidad.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Venta de Baterías</h3>
+          <p>
+            Vendemos baterías originales y de marcas de confianza que optimizan
+            el rendimiento de tu celular a largo plazo.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Venta de Accesorios</h3>
+          <p>
+            Disponemos de una variedad de cargadores, cables, fundas y otros
+            accesorios para mejorar la funcionalidad de tu celular.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Venta de Cargadores</h3>
+          <p>
+            Contamos con cargadores de alta calidad, compatibles con una amplia
+            gama de dispositivos móviles y con opciones de carga rápida.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
