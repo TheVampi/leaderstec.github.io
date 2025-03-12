@@ -16,6 +16,11 @@ body {
 
 }
 
+html {
+    scroll-padding-top: 20%;
+    scroll-behavior: smooth;
+}
+
 /*Cabecera About us*/
 .s_abouUs_header{
     position: relative;
